@@ -1,0 +1,18 @@
+RHDC D-convergence report
+
+observableMode: splitFactoredCTM_coherentNNN_SAFE
+diagonalEstimator: coherent
+DList: 2
+chiForD: 8
+dph: 3
+
+Records: 4, valid: 4
+
+[square_dominant]
+  D=2 chi=8 valid=1 E=-1.34492225159 Rtri=0.500574 Rdiag=0.000684511 label=square msg=ok
+[triangular_enhanced]
+  D=2 chi=8 valid=1 E=-1.34441324499 Rtri=0.943547 Rdiag=0.000179324 label=tri-enh msg=ok
+[diagonal_selected]
+  D=2 chi=8 valid=1 E=-1.34926775779 Rtri=0.530414 Rdiag=0.887381 label=diag msg=ok
+[mixed]
+  D=2 chi=8 valid=1 E=-1.34947359583 Rtri=0.839897 Rdiag=1 label=tri+diag msg=ok
